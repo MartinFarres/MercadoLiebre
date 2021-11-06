@@ -1,0 +1,36 @@
+@media (min-width: 1024px) {
+  .container-form {
+    margin: 200px auto 50px;
+  }
+
+  .control-del-formulario input[type="email"],
+  .control-del-formulario input[type="date"],
+  .control-del-formulario input[type="password"],
+  .control-del-formulario input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .button-form {
+    padding: 15px;
+    font-style: 20px;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+  }
+
+  .button-form:hover {
+    background-color: #0022aa;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+  }
+
+  .login-body .container-form {
+    margin: 240px auto 166px;
+  }
+}

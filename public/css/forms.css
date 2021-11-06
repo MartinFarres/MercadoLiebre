@@ -1,0 +1,46 @@
+.container-form {
+  width: 90%;
+  margin: 165px auto;
+}
+
+.create-form {
+  padding: 20px 15px;
+}
+
+.control-del-formulario {
+  margin-bottom: 25px;
+}
+
+.control-del-formulario .tittle-form {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+.control-del-formulario label {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.control-del-formulario input[type="email"],
+.control-del-formulario input[type="date"],
+.control-del-formulario input[type="password"],
+.control-del-formulario input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button-form {
+  background-color: #39b54a;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
